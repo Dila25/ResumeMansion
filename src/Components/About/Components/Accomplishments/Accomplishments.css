@@ -1,0 +1,19 @@
+.accomplishments_continer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #051d14;
+  flex-wrap: wrap;
+}
+.accomplishments_continer_card_topic {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.accomplishments_continer_card_one {
+  width: 550px;
+}
+.accomplishments_continer_card_pera {
+  font-weight: 400;
+  font-size: 20px;
+}

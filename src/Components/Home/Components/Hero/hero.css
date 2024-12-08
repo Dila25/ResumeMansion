@@ -1,0 +1,182 @@
+
+.home_hero {
+  background: linear-gradient(
+    179.97deg,
+    #ffffff 9.06%,
+    #eeffe1 43.82%,
+    #e4f9aa 63.84%,
+    #f4f1bb 85.01%,
+    #fff5ee 108.37%
+  );
+  padding: 0px 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex-direction: column;
+  padding-bottom: 128px;
+}
+.hero_sub_hed {
+  text-align: center;
+  background-color: #ffeb69;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 10px;
+  padding: 3px 8px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.disply_topic {
+  font-size: 64px;
+  font-weight: 500;
+  text-align: center;
+}
+.pera_hero {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  width: 60%;
+}
+.price_card_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.price_card {
+  border-radius: 20px;
+  width: 366px;
+  padding: 24px;
+  background-color: #051d14;
+  color: white;
+  cursor: pointer;
+}
+.price_card_topic {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.price_card_pera {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.price_card_name {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.price_card_price {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+.price_card_btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  background-color: #bcec88;
+  color: #051d14;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 24px;
+  border: 1px solid #bcec88;
+}
+.price_card_sub {
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.price_card_item {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.price_off {
+  background-color: #f2a900;
+  color: #051d14;
+  font-size: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 2px 8px;
+  display: inline-block;
+}
+.price_set_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dropp_price {
+  text-decoration: line-through;
+  color: #c6c6c6;
+  font-size: 24px;
+  font-weight: 400;
+}
+.price_drop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+.sub_card_price {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 24px;
+  cursor: pointer;
+  padding: 24px;
+  background-color: #051d14;
+  color: white;
+}
+.topic_sub_price {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.pera_sub_price {
+  font-size: 14px;
+  font-weight: 400;
+}
+.sub_card_price_main {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+}
+.fm_price {
+  font-weight: 600;
+  font-size: 14px;
+  position: relative;
+  left: 20px;
+  padding-top: 25px;
+}
+.sub_card_price {
+  font-size: 30px;
+  font-weight: 600;
+}
+.sub_card_btn_price {
+  background-color: #bcec88;
+  color: #051d14;
+  padding: 10px 75px;
+  font-weight: 600;
+  border: 1px solid #bcec88;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.lft_clm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

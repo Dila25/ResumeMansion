@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.nav_bar {
+  padding: 10px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Nav_Logo {
+  width: 180px;
+  cursor: pointer;
+}
+.nav_item_set {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+}
+.action_set_nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.order_btn_nav {
+  background-color: #0d5438;
+  color: white;
+  border: 1px solid #0d5438;
+  cursor: pointer;
+  border-radius: 80px;
+  padding: 8px 15px;
+  font-weight: 500;
+}
+.flxone {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.nav_item {
+  color: #051d14;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.icon_set {
+  font-size: 24px;
+  cursor: pointer;
+}
+.services_dropdown {
+  position: absolute;
+  top: 100%;
+  left: 90px;
+  animation: fadeUp 0.3s ease-in-out;
+  margin-top: 8px;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.nav_item:hover{
+  color: #0d5438;
+}
+.service_item_nav {
+  margin-bottom: 12px;
+}
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

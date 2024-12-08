@@ -1,0 +1,20 @@
+.hero_service_topic_sub {
+  color: #4b5852;
+  font-weight: 600;
+  font-size: 18px;
+}
+.hero_service_btn {
+  background-color: #bcec88;
+  border: 1px solid #bcec88;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #051d14;
+}
+.Resume_Hreeo_home_back{
+    background-color: #F5F6F4;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}

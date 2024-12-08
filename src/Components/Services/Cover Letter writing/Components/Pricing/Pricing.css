@@ -1,0 +1,27 @@
+.service_page_price_main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 55px;
+  padding: 0 8%;
+}
+.price_container_service_page_main {
+  padding: 64px 0;
+}
+.price_card_conetnt_hero {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.price_card_conetnt_hero_topic {
+  font-weight: 600;
+  padding: 0 15%;
+  color: #051d14;
+  font-size: 50px;
+}
+.price_card_conetnt_hero_pera {
+  color: #4b5852;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 15%;
+}

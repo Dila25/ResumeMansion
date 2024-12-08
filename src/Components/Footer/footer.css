@@ -1,0 +1,127 @@
+.footeer_second_colum {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:80px 8% 64px 8%;
+  background-color: #bcec88;
+  border-radius: 24px 24px 0 0;
+}
+.footer_logo {
+  width: 217px;
+  cursor: pointer;
+}
+.sub_name_logo_footer {
+  font-weight: 400;
+  color: #051d14;
+  font-size: 16px;
+  cursor: pointer;
+}
+.first_box_colum_footer {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.soshel_icon_footer {
+  cursor: pointer;
+  color: #051d14;
+  font-size: 30px;
+}
+.footer_soshel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.footer_right_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  color: #051d14;
+}
+.footer_head {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.footer_box {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer_nav_item {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+}
+.Copyright {
+  text-align: center;
+  background-color: #bcec88;
+  color: #051d14;
+  padding: 16px 10px;
+  cursor: pointer;
+}
+.main_row_footer_container {
+  padding: 0 8%;
+}
+.main_row_footer {
+  background-color: #063b26;
+  padding: 50px;
+  color: white;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 50px;
+  justify-content: space-between;
+}
+.foter_topic {
+  font-size: 30px;
+  width: 70%;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.colum_footer_main_rwo {
+  width: 564px;
+}
+.foter_sub_topic {
+  font-weight: 400;
+  font-size: 16px;
+}
+.colum_footer_main_rwo_two {
+  background-color: #f5f6f4;
+  padding: 30px 70px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.icon_uplode {
+  background-color: #bcec88;
+  color: #051d14;
+  font-size: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  padding: 5px;
+}
+.content_uplode {
+  font-weight: 400;
+  color: #4b5852;
+  font-size: 12px;
+}
+.btn_uplode {
+  cursor: pointer;
+  font-weight: 600;
+  color: #051d14;
+  font-size: 14px;
+}
