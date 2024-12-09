@@ -49,3 +49,16 @@
 .Craft_Section_main_card_colum {
   flex: 85%;
 }
+
+@media (max-width: 708px) {
+  .resume_elevate_continer {
+    padding: 10px;
+  }
+  .Craft_Section_main_card{
+    width: 100%;
+  }
+  .Craft_Section_main_topic{
+    width: 100%;
+    font-size: 30px;
+  }
+}

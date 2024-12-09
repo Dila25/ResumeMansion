@@ -79,3 +79,26 @@
   cursor: pointer;
   font-size: 18px;
 }
+@media (max-width: 708px) {
+  .card_invest_sub_section_linkset{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .invest_section_topic{
+    width: 100%;
+    font-size: 30px;
+    padding: 0;
+  }
+  .card_invest_sub_section_topic{
+    font-size: 30px;
+    width: 100%;
+    padding: 0;
+  }
+  .card_invest_sub_section_pera{
+    width: 100%;
+  }
+  .invest_section_continer{
+    padding: 10px;
+  }
+
+}

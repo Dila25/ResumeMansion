@@ -1,5 +1,6 @@
 import React from 'react'
 import './Services.css'
+import Pop from './img/pop.png'
 function Services() {
     return (
         <div className='card_main'>

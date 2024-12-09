@@ -1,5 +1,6 @@
 import React from 'react'
 import './Pricing.css'
+import Pop from './img/pop.png'
 function Pricing() {
     return (
         <div>
@@ -95,7 +96,8 @@ function Pricing() {
                         </div>
                         <div className='price_card'>
                             <p className='price_card_topic'>Career Starter</p>
-                            <p className='price_card_pera'>Entry-level resume with keywords, optimized for ATS & review-ready.</p>
+                            <p className='price_card_pera_new'>Entry-level resume with keywords, optimized for ATS & review-ready.</p>
+                            <img src={Pop} className='pop_image' alt='pop_msg' />
                             <p className='price_card_name'>Investment</p>
                             <p className='price_card_price'>$149</p>
                             <button className='price_card_btn'>Choose</button>

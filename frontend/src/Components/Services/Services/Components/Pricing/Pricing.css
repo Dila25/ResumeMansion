@@ -26,3 +26,20 @@
   font-weight: 400;
   padding: 0 15%;
 }
+@media (max-width: 908px) {
+.price_card_conetnt_hero_topic{
+  font-size: 30px;
+  width: 100%;
+  padding: 25px 0;
+}
+.price_container_service_page{
+  padding: 35px 10px;
+}
+.price_card_conetnt_hero_pera{
+  width: 100%;
+  padding: 0;
+}
+.service_page_price_main{
+  padding: 0 10px;
+}
+}

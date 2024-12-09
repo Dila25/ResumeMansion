@@ -41,3 +41,13 @@
   font-weight: 400;
   font-size: 16px;
 }
+@media (max-width: 708px) {
+  .main_container_data_card_set_services {
+    width: 100%;
+    padding: 10px;
+  }
+  .resume_elevate_continer_colum_topic{
+    width: 100%;
+    font-size: 30px;
+  }
+}

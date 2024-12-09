@@ -57,3 +57,18 @@
       width: 24px;
     }
 }
+
+@media (max-width: 708px) {
+  .resume_elevate_continer{
+    padding: 10px;
+  }
+}
+@media (max-width: 708px) {
+  .resume_elevate_continer_colum_topic{
+    width: 100%;
+    font-size: 30px;
+  }
+  .resume_elevate_main_container{
+    flex-direction: column-reverse;
+  }
+}
