@@ -2,13 +2,8 @@
 
 //Home
 01.Most Populer Tag Problem in pricing card set
-02.pricing card have dumy data
-03.home page client logo section hover logo not good check it
-04.QandA have dumy data
 
-//Desktop / Blog
-01. Blog 1st card cant add ui type broblemis auto repeted data displya
-02. befro add next page and previs page or paganism need add dumy data set 
+// Meating QandA
+01. Explain All UI
+02. DB Link (firebase best)
 
-//About
-01. need quality images
