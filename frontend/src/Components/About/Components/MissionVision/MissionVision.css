@@ -39,9 +39,17 @@
   font-size: 16px;
   font-weight: 400;
 }
-.mision_vision_card_one{
-    background-color: #FFEB69;
+.mision_vision_card_one {
+  background-color: #ffeb69;
 }
-.mision_vision_card_two{
-    background-color: #FFC091;
+.mision_vision_card_two {
+  background-color: #ffc091;
+}
+@media (max-width: 708px) {
+  .mision_vision_card_topic {
+    margin-bottom: 20px;
+  }
+  .mision_vision_card_section{
+    flex-direction: column;
+  }
 }

@@ -68,3 +68,26 @@
   font-weight: bold;
   font-size: 20px;
 }
+@media (max-width: 708px) {
+  .career_side_continer{
+    width: 100%;
+  }
+  .career_side_section_two_nav_item_active{
+    width: 100%;
+  }
+  .career_side_section_two_nav_item_set{
+    display: block;
+  }
+  .career_side_section_two_nav_item{
+    margin: 25px 0;
+  }
+  .career_side_search_bar{
+    width: 100%;
+  }
+  .career_side_continer{
+    display: block;
+  }
+  .career_side_section_two_topic{
+    margin: 15px 0;
+  }
+}

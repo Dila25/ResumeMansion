@@ -22,23 +22,25 @@ function Accomplishments() {
             Recognizing noteworthy milestones and achievements within our journey, showcasing success and perseverance.
           </p>
         </div>
-        <div className="accomplishments_continer_card">
-          <p className="accomplishments_continer_card_topic">
-            {startCount ? <CountUp start={0} end={23} duration={2} suffix="+" /> : '23+'}
-          </p>
-          <p className="accomplishments_continer_card_pera">Excellence Award</p>
-        </div>
-        <div className="accomplishments_continer_card">
-          <p className="accomplishments_continer_card_topic">
-            {startCount ? <CountUp start={0} end={13} duration={2} suffix="+" /> : '13+'}
-          </p>
-          <p className="accomplishments_continer_card_pera">International Presence</p>
-        </div>
-        <div className="accomplishments_continer_card">
-          <p className="accomplishments_continer_card_topic">
-            {startCount ? <CountUp start={0} end={55} duration={2} suffix="k" /> : '55k'}
-          </p>
-          <p className="accomplishments_continer_card_pera">User’s Retention</p>
+        <div className='counting_boot'>
+          <div className="accomplishments_continer_card">
+            <p className="accomplishments_continer_card_topic">
+              {startCount ? <CountUp start={0} end={23} duration={2} suffix="+" /> : '23+'}
+            </p>
+            <p className="accomplishments_continer_card_pera">Excellence Award</p>
+          </div>
+          <div className="accomplishments_continer_card">
+            <p className="accomplishments_continer_card_topic">
+              {startCount ? <CountUp start={0} end={13} duration={2} suffix="+" /> : '13+'}
+            </p>
+            <p className="accomplishments_continer_card_pera">International Presence</p>
+          </div>
+          <div className="accomplishments_continer_card">
+            <p className="accomplishments_continer_card_topic">
+              {startCount ? <CountUp start={0} end={55} duration={2} suffix="k" /> : '55k'}
+            </p>
+            <p className="accomplishments_continer_card_pera">User’s Retention</p>
+          </div>
         </div>
       </div>
     </div>

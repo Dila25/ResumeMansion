@@ -17,3 +17,34 @@
   font-weight: 400;
   font-size: 20px;
 }
+.counting_boot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 708px) {
+  .accomplishments_continer_card_topic {
+    font-size: 30px;
+  }
+  .accomplishments_continer {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 25px;
+  }
+  .accomplishments_continer_card_one {
+    width: 100%;
+  }
+  .counting_boot {
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+  }
+  .accomplishments_continer_card{
+    width: 100%;
+    margin: 10px 0;
+  }
+
+}

@@ -55,3 +55,8 @@
     width: 100%;
     background-color: transparent;
   }
+  @media (max-width: 708px) {
+    .main_part_pdin_fqa{
+      padding: 0px 10px;
+    }
+  }
