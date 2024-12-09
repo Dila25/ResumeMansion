@@ -103,3 +103,30 @@ textarea:focus {
   padding-left: 20px;
   margin-bottom: 3px;
 }
+
+@media (max-width: 908px) {
+  .lft_colum{
+    width: 100%;
+  }
+  .contact_input{
+    width: 100%;
+  }
+  .contact_from{
+    display: block;
+  }
+  .main_contact_home_section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+.bk_contact_right{
+  width: 100%;
+}
+.dataset_pera_conact{
+  padding-top: 350px;
+}
+}

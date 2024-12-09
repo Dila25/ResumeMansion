@@ -7,13 +7,13 @@
   font-size: 48px;
   width: 60%;
   margin-bottom: 11px;
-  color: #051D14;
+  color: #051d14;
 }
 .para_boosting {
   font-size: 16px;
   font-weight: 400;
   width: 70%;
-  color: #051D14;
+  color: #051d14;
   margin: 15px 0;
   margin-bottom: 64px;
 }
@@ -34,57 +34,75 @@
   padding: 24px;
   gap: 12px;
 }
-.card_boost_one{
-    background-color: #FFEB69;
-    color: #532E07;
+.card_boost_one {
+  background-color: #ffeb69;
+  color: #532e07;
 }
-.card_boost_two{
-    background-color: #FFC091;
-    color: #532E07;
+.card_boost_two {
+  background-color: #ffc091;
+  color: #532e07;
 }
-.card_boost_three{
-    background-color: #BCEC88;
-    color: #051D14;
+.card_boost_three {
+  background-color: #bcec88;
+  color: #051d14;
 }
-.card_boost_four{
-    background-color: #0D5438;
-    color: white;
+.card_boost_four {
+  background-color: #0d5438;
+  color: white;
 }
-.boost_card_topic{
-    font-weight: 600;
-    font-size: 24px;
+.boost_card_topic {
+  font-weight: 600;
+  font-size: 24px;
 }
-.boot_card_pera{
-    font-size: 16px;
-    font-weight: 400;
+.boot_card_pera {
+  font-size: 16px;
+  font-weight: 400;
 }
-.boost_card_btn{
-    background-color: #532E07;
-    color: white;
-    border: 1px solid #532E07;
-    border-radius: 8px;
-    cursor: pointer;
-    padding: 8px 14px;
-    font-size: 14px;
-    padding: 8px 14px;
+.boost_card_btn {
+  background-color: #532e07;
+  color: white;
+  border: 1px solid #532e07;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 14px;
+  font-size: 14px;
+  padding: 8px 14px;
 }
-.boost_card_btn_last{
-    background-color: white;
-    color: #0D5438;
-    border: 1px solid white;
-    border-radius: 8px;
-    cursor: pointer;
-    padding: 8px 14px;
-    font-size: 14px;
-    font-weight: 600;
+.boost_card_btn_last {
+  background-color: white;
+  color: #0d5438;
+  border: 1px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 600;
 }
-.boost_card_btn_thre{
-    background-color: #0D5438;
-    color: white;
-    border: 1px solid #0D5438;
-    border-radius: 8px;
-    cursor: pointer;
-    padding: 8px 14px;
-    font-size: 14px;
-    padding: 8px 14px;
+.boost_card_btn_thre {
+  background-color: #0d5438;
+  color: white;
+  border: 1px solid #0d5438;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 8px 14px;
+  font-size: 14px;
+  padding: 8px 14px;
+}
+
+@media (max-width: 908px) {
+  .card_main {
+    padding: 0px 15px;
+    margin-bottom: 50px;
+  }
+  .main_topic_boosting{
+    font-size: 30px;
+    width: 100%;
+  }
+  .para_boosting{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .boost_card{
+    width: 100%;
+  }
 }

@@ -44,7 +44,6 @@
 
 .spacex {
   background-image: url(./Logos/spacex_gray.png);
-
 }
 .spacex:hover {
   background-image: url(./Logos/SpaceX_Logo_light.png);
@@ -56,9 +55,20 @@
 .airbnb:hover {
   background-image: url(./Logos/Airbnb_Logo_Bélo.png);
 }
-.youtube{
-    background-image: url(./Logos/yt_gray.png);
+.youtube {
+  background-image: url(./Logos/yt_gray.png);
 }
-.youtube:hover{
-    background-image: url(./Logos/YouTube-Logolight.png);
+.youtube:hover {
+  background-image: url(./Logos/YouTube-Logolight.png);
+}
+@media (max-width: 908px) {
+  .card_set_client {
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .clint_main {
+    padding: 50px 10px;
+  }
 }

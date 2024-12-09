@@ -50,3 +50,10 @@
 .answers.show {
   display: block;
 }
+@media (max-width: 908px) {
+  .aq_topic{
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}

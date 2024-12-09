@@ -1,3 +1,4 @@
+/* General Styles */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
@@ -12,10 +13,16 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .Nav_Logo {
   width: 180px;
   cursor: pointer;
 }
+.Nav_Logo_res{
+  width: 100%;
+  cursor: pointer;
+}
+
 .nav_item_set {
   display: flex;
   align-items: center;
@@ -23,11 +30,13 @@
   gap: 20px;
   position: relative;
 }
+
 .action_set_nav {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 .order_btn_nav {
   background-color: #0d5438;
   color: white;
@@ -37,22 +46,26 @@
   padding: 8px 15px;
   font-weight: 500;
 }
+
 .flxone {
   display: flex;
   align-items: center;
   gap: 5px;
   cursor: pointer;
 }
+
 .nav_item {
   color: #051d14;
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
 }
+
 .icon_set {
   font-size: 24px;
   cursor: pointer;
 }
+
 .services_dropdown {
   position: absolute;
   top: 100%;
@@ -64,12 +77,19 @@
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   padding: 10px;
 }
-.nav_item:hover{
+
+.nav_item:hover {
   color: #0d5438;
 }
+
 .service_item_nav {
   margin-bottom: 12px;
 }
+
+.hamburger_icon {
+  display: none;
+}
+
 @keyframes fadeUp {
   0% {
     opacity: 0;
@@ -78,5 +98,91 @@
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+.res_verson {
+  display: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 908px) {
+  .nav_bar{
+    padding: 10px 15px;
+  }
+  .nav_item_set {
+    display: none; /* Hide nav items on mobile */
+  }
+
+  .res_verson {
+    display: block;
+  }
+
+  .nroml_verson {
+    display: none;
+  }
+
+  .hamburger_icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    color: #0d5438;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    animation: slideIn 0.3s ease-in-out;
+  }
+
+  .sidebar.close {
+    animation: slideOut 0.3s ease-in-out forwards;
+  }
+
+  .sidebar .nav_item {
+    font-size: 18px;
+    color: #051d14;
+  }
+
+  .sidebar .nav_item:hover {
+    color: #0d5438;
+  }
+  .order_btn_nav {
+    width: 130px;
+  }
+  .services_dropdown {
+    position: relative;
+    top: 0;
+    left: 30px;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-250px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-250px);
+    }
   }
 }

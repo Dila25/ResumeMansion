@@ -106,11 +106,13 @@
   /* Mobile Responsiveness */
   @media (max-width: 768px) {
     .star_continer {
-      padding: 0 4%;
+      padding: 0 10px;
     }
-  
+    .sub_review{
+      width: 100%;
+    }
     .slider {
-      padding: 64px 20px;
+      padding: 25px 20px;
     }
   
     .reviv_pera {

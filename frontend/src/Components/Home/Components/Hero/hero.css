@@ -1,4 +1,3 @@
-
 .home_hero {
   background: linear-gradient(
     179.97deg,
@@ -179,4 +178,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 908px) {
+  .disply_topic {
+    font-size: 30px;
+  }
+  .pera_hero {
+    width: 100%;
+    font-size: 18px;
+  }
+  .home_hero {
+    gap: 20px;
+    padding: 50px 10px;
+  }
+  .sub_card_price {
+    flex-wrap: wrap;
+  }
+  .sub_card_btn_price {
+    padding: 10px 20px;
+  }
+  .lft_clm {
+    width: 100%;
+  }
+  .price_card {
+    width: 100%;
+  }
 }
