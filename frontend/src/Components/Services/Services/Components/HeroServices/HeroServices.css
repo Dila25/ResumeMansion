@@ -57,4 +57,7 @@
     padding: 0;
     width: 100%;
   }
+  .root_path{
+    gap: 1px;
+  }
 }
