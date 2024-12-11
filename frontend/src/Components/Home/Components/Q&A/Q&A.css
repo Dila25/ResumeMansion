@@ -56,4 +56,8 @@
     font-size: 30px;
     margin-bottom: 30px;
   }
+  .question {
+    padding-right: 10px;
+    width: 95%;
+  }
 }

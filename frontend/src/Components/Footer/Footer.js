@@ -57,10 +57,10 @@ function Footer() {
                         <div className='footer_right_box'>
                             <div className='footer_box'>
                                 <p className='footer_head'>Services</p>
-                                <p className='footer_nav_item'>Resume Writing</p>
-                                <p className='footer_nav_item'>Cover letter Writing</p>
-                                <p className='footer_nav_item'>Career Advice</p>
-                                <p className='footer_nav_item'>LinkedIn optimization</p>
+                                <p className='footer_nav_item' onClick={()=>(window.location.href='/resumeWriting')}>Resume Writing</p>
+                                <p className='footer_nav_item' onClick={()=>(window.location.href='/coverLetter')}>Cover letter Writing</p>
+                                <p className='footer_nav_item' onClick={()=>(window.location.href='/careerAdvice')}>Career Advice</p>
+                                <p className='footer_nav_item' onClick={()=>(window.location.href='/linkedInOptimization')}>LinkedIn optimization</p>
                             </div>
                             <div className='footer_box'>
                                 <p className='footer_head'>About</p>
@@ -71,10 +71,10 @@ function Footer() {
                             </div>
                             <div className='footer_box'>
                                 <p className='footer_head'>Support</p>
-                                <p className='footer_nav_item'>FAQ</p>
-                                <p className='footer_nav_item'>Contact Us</p>
-                                <p className='footer_nav_item'>Privacy Policy</p>
-                                <p className='footer_nav_item'>Cookie Policy</p>
+                                <p className='footer_nav_item' onClick={()=>(window.location.href='/fAQ')}>FAQ</p>
+                                <p className='footer_nav_item' onClick={()=>(window.location.href='/contactUs')}>Contact Us</p>
+                                <p className='footer_nav_item' onClick={()=>(window.location.href='/privacyPolicy')}>Privacy Policy</p>
+                                <p className='footer_nav_item' onClick={()=>(window.location.href='/cookiePolicy')}>Cookie Policy</p>
                             </div>
                         </div>
                     </div>

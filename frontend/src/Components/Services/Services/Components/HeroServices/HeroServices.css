@@ -60,4 +60,12 @@
   .root_path{
     gap: 1px;
   }
+  .stay_path {
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #051d14;
+    border-radius: 5px;
+    padding: 5px 3px;
+  }
 }
