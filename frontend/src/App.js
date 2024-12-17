@@ -13,6 +13,7 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 import FAQ from "./Components/FAQ/FAQ";
 import PrivacyPolicy from "./Components/PrivacyPolicy/PrivacyPolicy";
 import CookiePolicy from "./Components/CookiePolicy/CookiePolicy";
+import MedicalResumeWriting from "./Components/Services/Medical Resume Writing/MedicalResumeWriting";
 function App() {
   return (
     <div >
@@ -29,6 +30,7 @@ function App() {
           <Route path="/writers" element={<Writers />} />
           <Route path="/contactUs" element={<ContactUs />} />
           <Route path="/fAQ" element={<FAQ />} />
+          <Route path="/medicalResumeWriting" element={<MedicalResumeWriting />} />
           <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
           <Route path="/cookiePolicy" element={<CookiePolicy />} />
         </Routes>

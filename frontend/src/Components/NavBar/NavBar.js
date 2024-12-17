@@ -40,6 +40,7 @@ function NavBar() {
                             <p className='nav_item service_item_nav' onClick={() => (window.location.href = '/resumeWriting')}>Resume Writing</p>
                             <p className='nav_item service_item_nav' onClick={() => (window.location.href = '/coverLetter')}>Cover Letter writing</p>
                             <p className='nav_item service_item_nav' onClick={() => (window.location.href = '/linkedInOptimization')}>LinkedIn Optimization</p>
+                            <p className='nav_item service_item_nav' onClick={() => (window.location.href = '/medicalResumeWriting')}>Medical Resume Writing</p>
                         </div>
                     )}
                     <p className='nav_item' onClick={() => (window.location.href = '/careerAdvice')}>Career Advice</p>
