@@ -1,9 +1,5 @@
 ** Need logo for web app icon
 
-//Home
-01.Most Populer Tag Problem in pricing card set
-
-// Meating QandA
-01. Explain All UI
-02. DB Link (firebase best)
-
+//nav bar
+01. what plse link services page
+02 what plse link medical servie

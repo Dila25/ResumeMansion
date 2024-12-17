@@ -25,42 +25,29 @@
   background-image: url(./Logos/meta_gray.png);
 }
 
-.meta:hover {
-  background-image: url(./Logos/Meta-Logolight.png);
-}
+
 .googale {
   background-image: url(./Logos/googal_gray.png);
-}
-.googale:hover {
-  background-image: url(./Logos/gogal_light.webp);
 }
 
 .amazon {
   background-image: url(./Logos/amazone_gray.png);
 }
-.amazon:hover {
-  background-image: url(./Logos/amazone_light.jpg);
-}
+
 
 .spacex {
   background-image: url(./Logos/spacex_gray.png);
 }
-.spacex:hover {
-  background-image: url(./Logos/SpaceX_Logo_light.png);
-}
+
 
 .airbnb {
   background-image: url(./Logos/airbnb_gray.png);
 }
-.airbnb:hover {
-  background-image: url(./Logos/Airbnb_Logo_Bélo.png);
-}
+
 .youtube {
   background-image: url(./Logos/yt_gray.png);
 }
-.youtube:hover {
-  background-image: url(./Logos/YouTube-Logolight.png);
-}
+
 @media (max-width: 908px) {
   .card_set_client {
     flex-wrap: wrap;

@@ -7,6 +7,7 @@ import Pricing from './Components/Pricing/Pricing'
 import InvestSection from './Components/InvestSection/InvestSection'
 import QandA from '../../Home/Components/Q&A/QandA'
 import Footer from '../../Footer/Footer'
+import Impression from './Components/Impression/Impression'
 function LinkedInOptimization() {
     return (
         <div className='container'>
@@ -15,6 +16,7 @@ function LinkedInOptimization() {
             <WhySection />
             <CraftSection />
             <Pricing />
+            <Impression/>
             <InvestSection />
             <QandA />
             <Footer />

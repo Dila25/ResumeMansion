@@ -92,7 +92,7 @@
 @media (max-width: 908px) {
   .card_main {
     padding: 0px 15px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
   .main_topic_boosting{
     font-size: 30px;

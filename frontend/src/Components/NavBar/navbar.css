@@ -13,12 +13,28 @@
   align-items: center;
   justify-content: space-between;
 }
+.nav_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+  transition: transform 0.3s ease-in-out;
+}
 
+.nav_bar.hidden {
+  transform: translateY(-100%);
+}
+
+.nav_bar.visible {
+  transform: translateY(0);
+}
 .Nav_Logo {
   width: 180px;
   cursor: pointer;
 }
-.Nav_Logo_res{
+.Nav_Logo_res {
   width: 100%;
   cursor: pointer;
 }
@@ -69,19 +85,53 @@
 .services_dropdown {
   position: absolute;
   top: 100%;
-  left: 90px;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  background-color: #f5f6f4;
   animation: fadeUp 0.3s ease-in-out;
-  margin-top: 8px;
-  z-index: 10;
-  background-color: white;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-  padding: 10px;
+  z-index: 999;
+  padding: 24px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dro_card_set_nav_bar {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.dro_card_nav {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+  cursor: pointer;
+  width: 400px;
+  flex-direction: column;
+}
+.dro_card_nav_topic {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+  color: #0d5438;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 24px;
+  font-size: 16px;
 }
 
 .nav_item:hover {
   color: #0d5438;
 }
-
+.dro_card_nav_pera {
+  color: #4b5852;
+  font-weight: 400;
+  line-height: 24px;
+  font-weight: 400;
+}
 .service_item_nav {
   margin-bottom: 12px;
 }
@@ -104,10 +154,12 @@
 .res_verson {
   display: none;
 }
-
+.services_dropdown_mobile{
+  padding-left: 25px;
+}
 /* Mobile Styles */
 @media (max-width: 908px) {
-  .nav_bar{
+  .nav_bar {
     padding: 10px 15px;
   }
   .nav_item_set {
@@ -131,10 +183,10 @@
 
   .sidebar {
     position: fixed;
-    top: 0;
+    top: 40px;
     left: 0;
     height: 100%;
-    width: 80%;
+    width: 100%;
     background-color: #fff;
     box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
     padding: 30px;
