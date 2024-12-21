@@ -17,11 +17,11 @@ function Home() {
         <Hero />
         <ClientComponents />
         <CareerBoosting />
-        {/* <Services/>
-        <Reviews/>
+        <Services />
+         <Reviews/>
         <ContactUs/>
         <QandA/>
-        <Footer/> */}
+        <Footer/> 
       </div>
     </div>
   )

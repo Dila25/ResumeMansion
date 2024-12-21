@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 20px;
 }
 .service_card {
   width: 610px;

@@ -12,9 +12,11 @@
   font-size: 18px;
   margin-bottom: 30px;
 }
+.clint_main{
+  width: 100%;
+}
 
-
-@media (max-width: 920px) {
+@media (max-width: 1020px) {
   .card_set_client {
     flex-wrap: wrap;
     gap: 25px;

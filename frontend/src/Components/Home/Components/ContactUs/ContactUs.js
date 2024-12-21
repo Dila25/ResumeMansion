@@ -10,19 +10,18 @@ function ContactUs() {
                             <div>
                                 <p className='fomr_topic_con'>Contact Us</p>
                                 <p className='fome_pera'>Don’t hesitate to reach out! We're here to help you navigate your job search. Check out our <span className='faqs'>FAQs</span> page for answers to your common questions.</p>
-                            </div> <form className="contact_from">
-                                <div>
+                            </div>
+                            <form className="contact_from">
+                                
                                     <label className='contct_from_label'>First Name</label><br />
                                     <input className='contact_input' type='text' required placeholder='Your First Name' /><br />
-                                </div>
-                                <div>
+
                                     <label className='contct_from_label'>Email Adress</label><br />
                                     <input className='contact_input' type='text' required placeholder='Your Email Adress' /><br />
-                                </div>
-                                <div>
+
                                     <label className='contct_from_label'>Message</label><br />
                                     <textarea className='contact_input' type='text' required placeholder='How we can help you' rows={5} /><br />
-                                </div>
+                              
                                 <button className='sub_btn_from'>Submit</button>
                             </form>
                         </div>

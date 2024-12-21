@@ -129,7 +129,13 @@
   color: #051d14;
   font-size: 14px;
 }
-@media (max-width: 908px) {
+
+@media (max-width: 1260px) {
+  .main_row_footer_container {
+    width: 100%;
+  }
+}
+@media (max-width: 999px) {
   .foter_topic {
     width: 100%;
     font-size: 24px;

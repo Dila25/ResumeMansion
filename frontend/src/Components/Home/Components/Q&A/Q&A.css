@@ -15,11 +15,9 @@
 }
 
 .questuin_card {
-  background-color: #f5f6f4;
   border-radius: 8px;
   width: 608px;
-  padding: 15px;
-  margin-bottom: 10px;
+
 }
 
 .question_card_hed {
@@ -27,6 +25,9 @@
   justify-content: space-between;
   align-items: center;
   gap: 0 0 0 15px;
+  background-color: #f5f6f4;
+  border-radius: 16px;
+  padding: 16px;
 }
 
 .question {
@@ -44,13 +45,14 @@
   display: none; 
   margin-top: 10px;
   font-size: 14px;
+  padding-left: 16px;
   color: #555;
 }
 
 .answers.show {
   display: block;
 }
-@media (max-width: 908px) {
+@media (max-width: 1300px) {
   .aq_topic{
     width: 100%;
     font-size: 30px;
@@ -59,5 +61,8 @@
   .question {
     padding-right: 10px;
     width: 95%;
+  }
+  .questuin_card{
+    width: 100%;
   }
 }

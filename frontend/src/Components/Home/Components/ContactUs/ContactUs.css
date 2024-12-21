@@ -20,9 +20,7 @@
   gap: 24px;
   flex-wrap: wrap;
 }
-.colum_contact_home {
-  flex: 1;
-}
+
 .lft_colum {
   background-color: #f5f6f4;
   border-radius: 24px;
@@ -32,8 +30,8 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-  height: 640px;
-  width: 550px;
+  height: 688px;
+  width: 608px;
 }
 
 .contct_from_label {
@@ -45,19 +43,18 @@
   padding: 10px 15px;
   resize: none;
   border-radius: 5px;
-   width: 480px;
-  margin: 8px 0;
-  border: 1px solid white;
+  width: 100%;
+  border: 1px solid #d0d5dd;
 }
 
 .contact_from {
   display: flex;
   align-items: start;
   justify-content: start;
-  gap: 24px;
   width: 100%;
   flex-direction: column;
 }
+
 .sub_btn_from {
   background-color: #0d5438;
   border: 1px solid #0d5438;
@@ -76,12 +73,12 @@ textarea:focus {
   background-image: url(./img/contact_img.png);
   background-size: cover;
   background-position: center;
-  height: 640px;
   border-radius: 24px;
   color: white;
   align-items: flex-end;
   display: flex;
-  width: 550px;
+  height: 688px;
+  width: 608px;
 }
 .dataset_pera_conact {
   background: linear-gradient(0deg, #000000 14.78%, rgba(0, 0, 0, 0) 100%);
@@ -103,30 +100,25 @@ textarea:focus {
   padding-left: 20px;
   margin-bottom: 3px;
 }
+@media (max-width: 1350px) {
+  .bk_contact_right,
+  .lft_colum {
+    height: 588px;
+    width: 508px;
+  }
+}
 
-@media (max-width: 908px) {
-  .lft_colum{
+@media (max-width: 1350px) {
+  .lft_colum {
     width: 100%;
-  }
-  .contact_input{
-    width: 100%;
-  }
-  .contact_from{
-    display: block;
   }
   .main_contact_home_section {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 24px;
-    flex-wrap: wrap;
     flex-direction: column-reverse;
-    align-content: center;
-}
-.bk_contact_right{
-  width: 100%;
-}
-.dataset_pera_conact{
-  padding-top: 350px;
-}
+  }
+  .bk_contact_right {
+    width: 100%;
+  }
+  .dataset_pera_conact {
+    padding-top: 350px;
+  }
 }
