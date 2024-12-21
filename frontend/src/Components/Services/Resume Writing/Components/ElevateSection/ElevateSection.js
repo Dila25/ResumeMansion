@@ -3,8 +3,8 @@ import './ElevateSection.css'
 import Card1 from './img/card1image.png'
 function ElevateSection() {
   return (
-    <div>
-      <div className='resume_elevate_continer'>
+    <div className='continer_main_box'>
+      <div className='container'>
         <div className='resume_elevate_main_container'>
           <div className='resume_elevate_continer_colum resume_elevate_continer_colum_setup'>
             <p className='resume_elevate_continer_colum_topic'>Elevate Your Career with Our Professional Resume Writing Services!</p>
@@ -19,7 +19,10 @@ function ElevateSection() {
             </div>
           </div>
           <div className='resume_elevate_continer_colum'>
-            <img src={Card1} alt="Card1" className='card_one_resume_section_image' />
+
+            <div className='card_one_resume_section_image'>
+
+            </div>
           </div>
         </div>
       </div>
