@@ -11,17 +11,17 @@ import QandA from './Components/Q&A/QandA'
 import Footer from '../Footer/Footer'
 function Home() {
   return (
-    <div>
-      <div className='container'>
+    <div >
+      <div className='class_continer'>
         <NavBar />
-        <Hero />
+        {/* <Hero />
         <ClientComponents />
         <CareerBoosting/>
         <Services/>
         <Reviews/>
         <ContactUs/>
         <QandA/>
-        <Footer/>
+        <Footer/> */}
       </div>
     </div>
   )

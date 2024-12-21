@@ -1,7 +1,7 @@
-.card_main {
+/* .card_main {
   padding: 0px 8%;
   margin-bottom: 50px;
-}
+} */
 .main_topic_boosting {
   font-weight: 600;
   font-size: 48px;
@@ -90,10 +90,10 @@
 }
 
 @media (max-width: 908px) {
-  .card_main {
+  /* .card_main {
     padding: 0px 15px;
     margin-bottom: 0px;
-  }
+  } */
   .main_topic_boosting{
     font-size: 30px;
     width: 100%;

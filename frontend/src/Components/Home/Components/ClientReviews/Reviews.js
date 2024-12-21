@@ -41,42 +41,47 @@ function Reviews() {
   const { review, owner } = reviewsData[currentIndex];
 
   return (
-    <div className="star_continer">
-      <div>
-        <p className="client_name">Client reviews</p>
-        <p className="sub_review">
-          We pride ourselves in Resume Writing Services as we know we’re very good at it. Still, there’s nothing more
-          reassuring than the feedback we get from thousands of our customers worldwide. Elevating Careers with
-          Professional Resume Writing Services.
-        </p>
-      </div>
-      <div className="slider">
-        <FaChevronLeft className="arrow left" onClick={handlePrev} />
-        <div>
-          <p className="reviv_pera">{review}</p>
-          <div className="star-rating">
-            {[...Array(5)].map((_, i) => (
-              <span key={i} className="star">
-                <FaStar />
-              </span>
-            ))}
+    <div className='continer_main_box'>
+      <div className='container'>
+        <div className="star_continer">
+          <div>
+            <p className="client_name">Client reviews</p>
+            <p className="sub_review">
+              We pride ourselves in Resume Writing Services as we know we’re very good at it. Still, there’s nothing more
+              reassuring than the feedback we get from thousands of our customers worldwide. Elevating Careers with
+              Professional Resume Writing Services.
+            </p>
           </div>
-          <p className="owner_rate">{owner}</p>
-          <div className="dots">
-        {reviewsData.map((_, index) => (
-          <span
-            key={index}
-            className={`dot ${index === currentIndex ? 'active' : ''}`}
-            onClick={() => handleDotClick(index)}
-          ></span>
-        ))}
-      </div>
+          <div className="slider">
+            <FaChevronLeft className="arrow left" onClick={handlePrev} />
+            <div>
+              <p className="reviv_pera">{review}</p>
+              <div className="star-rating">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="star">
+                    <FaStar />
+                  </span>
+                ))}
+              </div>
+              <p className="owner_rate">{owner}</p>
+              <div className="dots">
+                {reviewsData.map((_, index) => (
+                  <span
+                    key={index}
+                    className={`dot ${index === currentIndex ? 'active' : ''}`}
+                    onClick={() => handleDotClick(index)}
+                  ></span>
+                ))}
+              </div>
+            </div>
+            <FaChevronRight className="arrow right" onClick={handleNext} />
+
+          </div>
+
         </div>
-        <FaChevronRight className="arrow right" onClick={handleNext} />
-       
       </div>
-    
     </div>
+
   );
 }
 

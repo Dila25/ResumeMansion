@@ -7,13 +7,11 @@
     #f4f1bb 85.01%,
     #fff5ee 108.37%
   );
-  padding: 0px 8%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 32px;
   flex-direction: column;
-  padding-bottom: 128px;
 }
 .hero_sub_hed {
   text-align: center;
@@ -198,7 +196,6 @@
   }
   .home_hero {
     gap: 20px;
-    padding: 25px 10px;
   }
   .sub_card_price {
     flex-wrap: wrap;

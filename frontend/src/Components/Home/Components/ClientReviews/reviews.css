@@ -1,5 +1,4 @@
 .star_continer {
-    padding: 0 8%;
     display: flex;
     align-items: start;
     flex-direction: column;
@@ -105,9 +104,7 @@
   
   /* Mobile Responsiveness */
   @media (max-width: 768px) {
-    .star_continer {
-      padding: 0 10px;
-    }
+
     .sub_review{
       width: 100%;
     }

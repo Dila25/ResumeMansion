@@ -26,21 +26,23 @@ function QandA() {
   };
 
   return (
-    <div>
-      <div className='card_main'>
-        <p className='aq_topic'>See Common Question and Answer</p>
-        <div className='question_card_main'>
-          {qaData.map((qa, index) => (
-            <div className='questuin_card' key={index}>
-              <div className='question_card_hed'>
-                <p className='question'>{qa.question}</p>
-                <FaCirclePlus className='question_span_btn' onClick={() => handleToggleAnswer(index)} />
+    <div className='continer_main_box'>
+      <div className='container'>
+        <div className='card_main'>
+          <p className='aq_topic'>See Common Question and Answer</p>
+          <div className='question_card_main'>
+            {qaData.map((qa, index) => (
+              <div className='questuin_card' key={index}>
+                <div className='question_card_hed'>
+                  <p className='question'>{qa.question}</p>
+                  <FaCirclePlus className='question_span_btn' onClick={() => handleToggleAnswer(index)} />
+                </div>
+                <p className={`answers ${showAnswer[index] ? 'show' : ''}`}>
+                  {qa.answer}
+                </p>
               </div>
-              <p className={`answers ${showAnswer[index] ? 'show' : ''}`}>
-                {qa.answer}
-              </p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>

@@ -1,12 +1,23 @@
 .container {
-  display: flex;
+  width: 1440px;
+  padding: 0 100px;
+}
+.class_continer{
   flex-direction: column;
-  gap: 80px;
+  justify-content: center;
+  gap: 128px;
+
+  width: 100%;
+  display: flex;
+}
+.continer_main_box{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 }
 @media (max-width: 908px) {
   .container {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+    width: 100%;
+    padding: 0;
   }
 }
