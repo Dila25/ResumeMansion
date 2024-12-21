@@ -12,6 +12,7 @@
   background-size: cover;
   background-image: url('./img/cardimage.webp');
 }
+
 .resume_elevate_continer_colum_topic {
   color: #051d14;
   font-size: 48px;
@@ -55,11 +56,7 @@
   }
 }
 
-@media (max-width: 708px) {
-  .resume_elevate_continer {
-    padding: 10px;
-  }
-}
+
 @media (max-width: 708px) {
   .resume_elevate_continer_colum_topic {
     width: 100%;
@@ -72,6 +69,9 @@
   .card_one_resume_section_image {
     width: 100%;
   }
+  .card_one_resume_section_image_why {
+    width: 100%;
+  }
 }
 @media (max-width: 1200px) {
   .resume_elevate_main_container {
@@ -81,4 +81,8 @@
   .card_one_resume_section_image{
     width: 100%;
   }
+  .card_one_resume_section_image_why{
+    width: 100%;
+  }
+  
 }

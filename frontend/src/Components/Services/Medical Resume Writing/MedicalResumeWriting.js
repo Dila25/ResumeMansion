@@ -9,14 +9,14 @@ import Footer from '../../Footer/Footer'
 
 function MedicalResumeWriting() {
     return (
-        <div className='container'>
+        <div className='class_continer'>
             <NavBar />
             <HeroSection />
             <Section2 />
             <Reviews />
             <Impression />
             <InvestSection />
-            <Footer/>
+            <Footer />
         </div>
     )
 }

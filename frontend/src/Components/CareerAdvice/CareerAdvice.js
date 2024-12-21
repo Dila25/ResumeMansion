@@ -5,7 +5,7 @@ import CarrerBlogSection from './Components/CarrerBlogSection/CarrerBlogSection'
 import Footer from '../Footer/Footer'
 function CareerAdvice() {
     return (
-        <div className='container '>
+        <div className='class_continer'>
             <NavBar />
             <CareerHero />
             <CarrerBlogSection />

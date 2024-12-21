@@ -14,7 +14,7 @@
 .Craft_Section_main_card_set {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   gap: 30px;
   margin: 25px 0;
   flex-direction: column;
@@ -23,7 +23,7 @@
   width: 768px;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
 }
 .Craft_Section_main_card_colum_lft {
@@ -49,6 +49,7 @@
 }
 .Craft_Section_main_card_colum_pera {
   color: #4b5852;
+
   font-weight: 400;
 }
 .Craft_Section_main_card_colum {

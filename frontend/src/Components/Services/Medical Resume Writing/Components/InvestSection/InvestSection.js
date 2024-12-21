@@ -2,10 +2,9 @@ import React from 'react'
 
 function InvestSection() {
   return (
-    <div>
-      <div className='invest_section_continer'>
-
-        <div>
+    <div className='continer_main_box'>
+      <div  className='container'>
+        <div  className='invest_section_continer'>
           <p className='invest_section_topic'>Why should you invest in a medical resume?</p>
           <div className='invest_section_card_continer'>
             <div className='invest_section_card'>

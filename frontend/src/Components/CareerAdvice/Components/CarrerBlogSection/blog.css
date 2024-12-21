@@ -3,11 +3,11 @@
   align-items: flex-start;
   justify-content: start;
   flex-wrap: nowrap;
-  gap: 65px;
+  gap: 64px;
   border-bottom: 1px solid #eaecf0;
 }
 .blog_card {
-  width: 400px;
+  width: 420px;
   gap: 10px;
   flex-direction: column;
   justify-content: start;
@@ -331,16 +331,60 @@
 .nav_resltype {
   display: none;
 }
-.res_actionset{
+.res_actionset {
   color: #4b5852;
   display: flex;
   margin: 25px 0 0 0;
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 708px) {
+.main_feature_carrd_colum_image {
+  width: 560px;
+  height: 320px;
+  border-radius: 12px;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./img/Featuredblog.webp");
+}
+.main_feature_carrd {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.bolog_with_full {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+.toic_eit {
+  width: 128px;
+}
+.main_feature_carrd_colum{
+  width: 100%;
+}
+@media (max-width: 1330px) {
   .carrer_Blog_Section_continer {
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 930px) {
+  .main_feature_carrd_colum_image {
+    width: 320px;
+    height: 280px;
+  }
+}
+@media (max-width: 708px) {
+  .main_feature_carrd_colum_image {
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+  }
+  .main_feature_carrd {
+    flex-direction: column;
   }
   .blog_card {
     width: 100%;
@@ -357,25 +401,25 @@
   .nav_resltype {
     display: block;
   }
-  .blog_previe_page_content_topic{
+  .blog_previe_page_content_topic {
     width: 100%;
     font-size: 30px;
   }
-  .blog_imagee{
+  .blog_imagee {
     width: 100%;
   }
-  .main_blog_page_hero{
-    padding:  30px 10px;
+  .main_blog_page_hero {
+    padding: 30px 10px;
   }
-  .main_blog_page_content{
+  .main_blog_page_content {
     padding: 10px;
   }
-  .action_section_blog_btn_nav{
+  .action_section_blog_btn_nav {
     flex-direction: column;
     align-items: start;
     gap: 25px;
   }
-  .continer_blog_lts{
+  .continer_blog_lts {
     flex-wrap: wrap;
     gap: 25px;
   }
