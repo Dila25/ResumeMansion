@@ -1,9 +1,8 @@
-.clint_main {
-  padding: 0px 8%;
-}
+
 .card_set_client {
   display: flex;
   align-items: center;
+  gap: 24px;
   justify-content: space-between;
 }
 .client_card_topic {
@@ -13,49 +12,14 @@
   font-size: 18px;
   margin-bottom: 30px;
 }
-.client_card {
-  width: 100px;
-  height: 30px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  cursor: pointer;
-}
-.meta {
-  background-image: url(./Logos/meta_gray.png);
-}
 
 
-.googale {
-  background-image: url(./Logos/googal_gray.png);
-}
-
-.amazon {
-  background-image: url(./Logos/amazone_gray.png);
-}
-
-
-.spacex {
-  background-image: url(./Logos/spacex_gray.png);
-}
-
-
-.airbnb {
-  background-image: url(./Logos/airbnb_gray.png);
-}
-
-.youtube {
-  background-image: url(./Logos/yt_gray.png);
-}
-
-@media (max-width: 908px) {
+@media (max-width: 920px) {
   .card_set_client {
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
     align-items: center;
   }
-  .clint_main {
-    padding: 50px 10px;
-  }
+
 }

@@ -20,8 +20,9 @@
 .boost_card_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  gap: 24px;
   flex-wrap: wrap;
 }
 .boost_card {
@@ -29,7 +30,7 @@
   align-items: start;
   justify-content: space-between;
   flex-direction: column;
-  width: 300px;
+  width: 292px;
   border-radius: 24px;
   padding: 24px;
   gap: 12px;

@@ -15,9 +15,9 @@ function Home() {
       <div className='class_continer'>
         <NavBar />
         <Hero />
-        {/* <ClientComponents />
-        <CareerBoosting/>
-        <Services/>
+        <ClientComponents />
+        <CareerBoosting />
+        {/* <Services/>
         <Reviews/>
         <ContactUs/>
         <QandA/>
