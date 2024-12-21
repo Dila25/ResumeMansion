@@ -48,16 +48,16 @@
 }
 
 @media (max-width: 908px) {
-  .hero_service_topic{
+  .hero_service_topic {
     font-size: 30px;
     width: 100%;
     padding: 0;
   }
-  .hero_service_pera{
+  .hero_service_pera {
     padding: 0;
     width: 100%;
   }
-  .root_path{
+  .root_path {
     gap: 1px;
   }
   .stay_path {
@@ -67,5 +67,8 @@
     color: #051d14;
     border-radius: 5px;
     padding: 5px 3px;
+  }
+  .root_path {
+    margin-top: 25px;
   }
 }

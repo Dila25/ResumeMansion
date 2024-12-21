@@ -96,17 +96,19 @@ function NavBar() {
                                         </div>
                                         <div className='nav_item_set'>
                                             <p className='nav_item' onClick={() => (window.location.href = '/')}>Home</p>
-                                            <div className='nav_item flxone' onClick={toggleServices}>
-                                                Our Services
-                                                {servicesOpen ? (
-                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5 12.5L10 7.5L15 12.5" stroke="#051D14" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
-                                                    </svg>
-                                                ) : (
-                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M5 7.5L10 12.5L15 7.5" stroke="#051D14" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
-                                                    </svg>
-                                                )}
+                                            <div className='nav_item flxone' >
+                                                <p onClick={() => (window.location.href = '/servicess')}>Our Services</p>
+                                                <div onClick={toggleServices}>
+                                                    {servicesOpenMobile ? (
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M5 12.5L10 7.5L15 12.5" stroke="#051D14" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                                                        </svg>
+                                                    ) : (
+                                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M5 7.5L10 12.5L15 7.5" stroke="#051D14" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                                                        </svg>
+                                                    )}
+                                                </div>
                                             </div>
 
 
@@ -208,17 +210,19 @@ function NavBar() {
                         <div className='sidebar'>
                             <p className='nav_item' onClick={() => (window.location.href = '/')}>Home</p>
                             <div className='servi_mob'>
-                                <div className='nav_item flxone' onClick={toggleServicesMobile}>
-                                    Our Services
-                                    {servicesOpenMobile ? (
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 12.5L10 7.5L15 12.5" stroke="#051D14" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
-                                    ) : (
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5 7.5L10 12.5L15 7.5" stroke="#051D14" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
-                                    )}
+                                <div className='nav_item flxone' >
+                                    <p onClick={() => (window.location.href = '/servicess')}>Our Services</p>
+                                    <div onClick={toggleServicesMobile}>
+                                        {servicesOpenMobile ? (
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 12.5L10 7.5L15 12.5" stroke="#051D14" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                        ) : (
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M5 7.5L10 12.5L15 7.5" stroke="#051D14" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                        )}
+                                    </div>
                                 </div>
                                 {servicesOpenMobile && (
                                     <div className='services_dropdown_mobile'>

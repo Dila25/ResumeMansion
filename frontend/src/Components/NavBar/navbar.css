@@ -63,7 +63,6 @@
   font-size: 16px;
   padding: 10px 24px;
   line-height: 24px;
-
   font-weight: 500;
 }
 
@@ -169,7 +168,7 @@
   }
   .sidebar {
     position: fixed;
-    top: 80px;
+    top: 70px;
     left: 0;
     height: 100%;
     width: 100%;
@@ -228,7 +227,10 @@
     flex-direction: column;
   }
 }
-@media (max-width: 908px) {
+@media (max-width: 1530px) {
+  .nav_oitem_continer{
+    width: 100%;
+  }
 }
 @media (max-width: 610px) {
   .res_verson {
