@@ -95,3 +95,12 @@
   font-weight: 600;
   border: 1px solid #bcec88;
 }
+@media (max-width: 600px) {
+  .working_card{
+    width: 100%;
+  }
+  .working_card_continer,
+  .working_card_continer_main{
+    width: 100%;
+  }
+}

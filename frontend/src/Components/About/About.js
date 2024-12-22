@@ -11,7 +11,7 @@ import ContactUs from '../Home/Components/ContactUs/ContactUs'
 import Boosting from './Components/Boosting/Boosting'
 function About() {
   return (
-    <div className='container'>
+    <div className='class_continer'>
       <NavBar />
       <HeroSection />
       <ImageSection />

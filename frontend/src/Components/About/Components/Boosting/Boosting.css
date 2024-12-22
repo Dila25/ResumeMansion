@@ -72,6 +72,7 @@
 @media (max-width: 708px) {
   .boosting_card{
     width: 100%;
+    padding: 24px;
   }
   .boosting_card_continer_main_topic{
     width: 100%;

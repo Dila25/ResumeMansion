@@ -5,8 +5,8 @@ import Card3 from './img/card3.png'
 import './Boosting.css'
 function Boosting() {
     return (
-        <div className='card_main'>
-            <div>
+        <div className='continer_main_box'>
+            <div className='container'>
                 <div className='boosting_card_continer_main_topic_set'>
                     <p className='boosting_card_continer_main_topic'>Career-Boosting Services to Help You Stand Out</p>
                     <p className='boosting_card_continer_main_pera'>Our tailored services—resume writing, cover letter creation, LinkedIn optimization, and career advice—are designed to showcase your strengths and help you make a lasting impression in today’s job market.</p>

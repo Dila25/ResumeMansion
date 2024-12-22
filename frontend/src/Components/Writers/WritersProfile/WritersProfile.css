@@ -1,7 +1,6 @@
 .writer_card_continer {
   display: flex;
-  margin: 25px 0;
-  gap: 25px;
+  gap: 24px;
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
@@ -23,7 +22,7 @@
   cursor: pointer;
   gap: 15px;
   flex-direction: column;
-  width: 400px;
+  width: 397.33px;
   border-radius: 20px;
 }
 .writr_card_ne_pd {
@@ -48,4 +47,16 @@
   width: 100%;
   border-radius: 24px;
   height: 360px;
+}
+@media (max-width: 1300px) {
+  .writer_card {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+@media (max-width: 690px) {
+  .writer_card {
+    flex-direction: column;
+    width: 100%;
+  }
 }

@@ -7,7 +7,7 @@ import QandA from './Components/QandA/QandA'
 import Footer from '../Footer/Footer'
 function Writers() {
     return (
-        <div className='container'>
+        <div className='class_continer'>
             <NavBar />
             <HeroWriters />
             <WritersProfile />

@@ -14,6 +14,14 @@
   align-items: start;
   display: flex;
 }
+.blog_card_lts {
+  width: 384px;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  display: flex;
+}
 .blog_image {
   width: 100%;
   border-radius: 12px;
@@ -135,8 +143,8 @@
   background-color: #bcec88;
 }
 .main_blog_page_hero {
-  padding: 50px 8%;
   background-color: #bcec88;
+  padding: 40px 0 72px 0;
 }
 .blog_previe_page_content {
   display: flex;
@@ -166,7 +174,8 @@
   height: 240px;
 }
 .main_blog_page_content {
-  padding: 0px 25%;
+  width: 720px;
+  margin: 0 auto;
 }
 .blog_page_content_body {
   display: flex;
@@ -362,7 +371,7 @@
 .toic_eit {
   width: 128px;
 }
-.main_feature_carrd_colum{
+.main_feature_carrd_colum {
   width: 100%;
 }
 @media (max-width: 1330px) {
@@ -376,6 +385,17 @@
     height: 280px;
   }
 }
+@media (max-width: 820px) {
+  .blog_previe_page_content {
+    flex-direction: column;
+  }
+  .main_blog_page_content {
+    width: 100%;
+  }
+  .nodis{
+    display: none;
+  }
+}
 @media (max-width: 708px) {
   .main_feature_carrd_colum_image {
     width: 100%;
@@ -386,7 +406,8 @@
   .main_feature_carrd {
     flex-direction: column;
   }
-  .blog_card {
+  .blog_card ,
+  .blog_card_lts {
     width: 100%;
   }
   .career_side_continer {
@@ -408,12 +429,7 @@
   .blog_imagee {
     width: 100%;
   }
-  .main_blog_page_hero {
-    padding: 30px 10px;
-  }
-  .main_blog_page_content {
-    padding: 10px;
-  }
+
   .action_section_blog_btn_nav {
     flex-direction: column;
     align-items: start;
