@@ -5,7 +5,7 @@ import DataSet from './Components/DataSet/DataSet'
 import Footer from '../Footer/Footer'
 function CookiePolicy() {
     return (
-        <div className='container'>
+        <div className='class_continer'>
             <NavBar />
             <HeroSection />
             <DataSet />

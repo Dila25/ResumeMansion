@@ -4,8 +4,8 @@ import { MdNavigateNext } from "react-icons/md";
 
 function ContactHero() {
     return (
-        <div>
-            <div className='card_main'>
+        <div className='continer_main_box'>
+            <div className='container'>
                 <div className='root_path'>
                     <RiHome6Line onClick={() => (window.location.href = '/')} className='path_start' />
                     <MdNavigateNext className='path_next' />

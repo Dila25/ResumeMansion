@@ -7,7 +7,7 @@ import Footer from '../Footer/Footer'
 
 function ContactUs() {
     return (
-        <div className='container'>
+        <div className='class_continer'>
             <NavBar />
             <ContactHero />
             <ContactFrom />

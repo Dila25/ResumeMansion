@@ -6,7 +6,7 @@ import MainFaq from './Components/MainFaq/MainFaq'
 import ContactUsFrom from './Components/ContactUsFrom/ContactUsFrom'
 function FAQ() {
   return (
-    <div className='container'>
+    <div className='class_continer'>
       <NavBar />
       <FAQHero />
       <MainFaq />

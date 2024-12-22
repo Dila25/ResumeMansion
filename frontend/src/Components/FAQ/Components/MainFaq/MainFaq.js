@@ -37,9 +37,43 @@ function MainFaq() {
                 <div className='question_card_main_faq'>
                     {qaData.map((qa, index) => (
                         <div className='questuin_card_faq' key={index}>
-                            <div className='question_card_hed'>
+                            <div className='question_card_hed' onClick={() => handleToggleAnswer(index)}>
                                 <p className='question'>{qa.question}</p>
-                                <FaCirclePlus className='question_span_btn' onClick={() => handleToggleAnswer(index)} />
+                                <div>
+                                    {showAnswer[index] ? (
+                                        <div className='question_close_btn'>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_229_26315)">
+                                                    <mask id="mask0_229_26315" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                        <path d="M24 0H0V24H24V0Z" fill="white" />
+                                                    </mask>
+                                                    <g mask="url(#mask0_229_26315)">
+                                                        <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM17 13H7V11H17V13Z" fill="#063B26" />
+                                                    </g>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_229_26315">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+
+                                        </div>
+
+                                    ) : (
+                                        <div className='question_span_btn'>
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <mask id="mask0_229_26349" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                                                    <path d="M24 0H0V24H24V0Z" fill="white" />
+                                                </mask>
+                                                <g mask="url(#mask0_229_26349)">
+                                                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM17 13H13V17H11V13H7V11H11V7H13V11H17V13Z" fill="#063B26" />
+                                                </g>
+                                            </svg>
+
+                                        </div>
+                                    )}
+                                </div>
                             </div>
                             <p className={`answers ${showAnswer[index] ? 'show' : ''}`}>
                                 {qa.answer}

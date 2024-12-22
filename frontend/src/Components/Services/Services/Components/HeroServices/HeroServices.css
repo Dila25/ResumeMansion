@@ -4,6 +4,7 @@
   align-items: center;
   gap: 8px;
   cursor: pointer;
+  width: 100%;
 }
 .path_next {
   font-size: 20px;

@@ -1,6 +1,6 @@
 .questuin_card_faq {
   background-color: #f5f6f4;
-
+  cursor: pointer;
   width: 100%;
   padding: 15px 0px 20px 0px;
   border-bottom: 1px solid #e5e5e5;
@@ -39,24 +39,24 @@
 }
 
 .career_side_search_bar_main {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 8px;
-    width: 100%;
-    border-radius: 8px;
-    background-color: white;
-    padding: 10px 14px;
-    border: 1px solid #D0D5DD;
-    color: #4b5852;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px 14px;
+  border: 1px solid #d0d5dd;
+  color: #4b5852;
+}
+.career_side_search {
+  border: 0;
+  width: 100%;
+  background-color: transparent;
+}
+@media (max-width: 708px) {
+  .main_part_pdin_fqa {
+    padding: 0px 10px;
   }
-  .career_side_search {
-    border: 0;
-    width: 100%;
-    background-color: transparent;
-  }
-  @media (max-width: 708px) {
-    .main_part_pdin_fqa{
-      padding: 0px 10px;
-    }
-  }
+}

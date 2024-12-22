@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding: 0 22%;
+  margin: 0 auto;
+  width: 720px;
   gap: 20px;
 }
 .data_set_pera {
@@ -20,6 +21,14 @@
 }
 @media (max-width: 708px) {
   .dataset_main_continer {
-    padding: 10px;
+    width: 100%;
+    padding: 32px;
+  }
+}
+
+@media (max-width: 508px) {
+  .dataset_main_continer {
+    width: 100%;
+    padding: 20px;
   }
 }
