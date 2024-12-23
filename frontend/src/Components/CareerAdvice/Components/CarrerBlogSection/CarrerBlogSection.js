@@ -10,7 +10,7 @@ function CarrerBlogSection() {
         <div className='continer_main_box'>
             <div className='container'>
                 <div className='carrer_Blog_Section_continer'>
-                    <div>
+                    <div className='fullwith'>
                         <CarrerSideBar />
                     </div>
                     <div className='bolog_with_full'>

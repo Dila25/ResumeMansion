@@ -68,7 +68,12 @@
   font-weight: bold;
   font-size: 20px;
 }
-@media (max-width: 708px) {
+@media (max-width: 1330px) {
+  .career_side_continer{
+    width: 100%;
+  }
+}
+@media (max-width: 1303px) {
   .career_side_continer{
     width: 100%;
   }
@@ -86,6 +91,7 @@
   }
   .career_side_continer{
     display: block;
+    width: 100%;
   }
   .career_side_section_two_topic{
     margin: 15px 0;

@@ -17,6 +17,7 @@
 .questuin_card {
   border-radius: 8px;
   width: 608px;
+  cursor: pointer;
 
 }
 

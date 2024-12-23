@@ -3,7 +3,7 @@ import './careerSideBar.css'
 import { CiSearch } from "react-icons/ci";
 function CareerSideBar() {
     return (
-        <div>
+        <div className='fullwith'>
             <div className='career_side_continer'>
                 <div className='career_side_section_one'>
                     <div className='career_side_search_bar'>
