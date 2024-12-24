@@ -5,17 +5,19 @@
 .main_topic_boosting {
   font-weight: 600;
   font-size: 48px;
-  width: 60%;
+  width: 700px;
+  line-height: 60px; /* 125% */
+  letter-spacing: -0.96px;
   margin-bottom: 11px;
   color: #051d14;
 }
 .para_boosting {
   font-size: 16px;
   font-weight: 400;
-  width: 70%;
+  width: 820px;
   color: #051d14;
-  margin: 15px 0;
-  margin-bottom: 64px;
+  margin: 15px 0 64px 0;
+  line-height: 24px;
 }
 .boost_card_container {
   display: flex;
@@ -54,10 +56,12 @@
 .boost_card_topic {
   font-weight: 600;
   font-size: 24px;
+  line-height: 32px;
 }
 .boot_card_pera {
   font-size: 16px;
   font-weight: 400;
+  line-height: 24px;
 }
 .boost_card_btn {
   background-color: #532e07;

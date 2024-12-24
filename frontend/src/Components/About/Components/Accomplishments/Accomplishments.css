@@ -4,11 +4,14 @@
   justify-content: space-between;
   color: #051d14;
   flex-wrap: wrap;
+  gap: 64px;
 }
 .accomplishments_continer_card_topic {
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 8px;
+  line-height: 60px; /* 125% */
+  letter-spacing: -0.96px;
 }
 .accomplishments_continer_card_one {
   width: 550px;
@@ -16,11 +19,14 @@
 .accomplishments_continer_card_pera {
   font-weight: 400;
   font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .counting_boot {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
 }
 @media (max-width: 708px) {
   .accomplishments_continer_card_topic {
@@ -42,9 +48,8 @@
     justify-content: start;
     align-items: center;
   }
-  .accomplishments_continer_card{
+  .accomplishments_continer_card {
     width: 100%;
     margin: 10px 0;
   }
-
 }

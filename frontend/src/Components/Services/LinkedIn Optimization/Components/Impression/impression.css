@@ -4,10 +4,13 @@
   font-size: 48px;
   line-height: 60px;
   margin-bottom: 12px;
+  line-height: 60px; /* 125% */
+letter-spacing: -0.96px;
 }
 .impression_continer_rightcolum_pera {
   color: #4b5852;
   font-weight: 400;
+  line-height: 24px;
   line-height: 24px;
   font-size: 16px;
 }

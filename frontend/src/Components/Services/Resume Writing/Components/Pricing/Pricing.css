@@ -10,13 +10,17 @@
   font-weight: 600;
   padding: 0 15%;
   color: #051d14;
+  line-height: 60px; /* 125% */
+  letter-spacing: -0.96px;
+  margin-bottom: 11px;
   font-size: 50px;
 }
 .price_card_conetnt_hero_pera {
   color: #4b5852;
   font-size: 16px;
   font-weight: 400;
-  padding: 0 15%;
+  padding: 0 21%;
+  line-height: 24px; 
 }
 @media (max-width: 908px) {
   .price_card_conetnt_hero_topic {

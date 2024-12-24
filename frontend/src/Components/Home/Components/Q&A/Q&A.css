@@ -2,7 +2,7 @@
   font-weight: 600;
   font-size: 48px;
   color: #051d14;
-  width: 50%;
+  width: 500px;
   margin-bottom: 52px;
 }
 .question_card_main {
@@ -34,6 +34,7 @@
 .question {
   font-size: 18px;
   font-weight: 600;
+  line-height: 28px; 
 }
 
 .question_span_btn {

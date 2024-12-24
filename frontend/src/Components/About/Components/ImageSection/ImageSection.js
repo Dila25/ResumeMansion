@@ -19,7 +19,7 @@ const ImageSection = () => {
             <p className="about_grid_image_section_container_card6_topic">Resume Mansion has been a game-changer. </p>
             <p className="about_grid_image_section_container_card6_pera">Their professional writers are responsive, accommodating, and deliver high-quality, tailored resumes.</p>
             <div className="about_grid_image_section_container_card6_owner_card">
-              <p className="about_grid_image_section_container_card6_owner_card_name">John Doe</p>
+              <p className="about_grid_image_section_container_card6_owner_card_name">• John Doe</p>
               <p className="about_grid_image_section_container_card6_owner_card_pera">Software Engineer</p>
             </div>
           </div>

@@ -41,7 +41,7 @@ function Reviews() {
     <div className='continer_main_box'>
       <div className='container'>
         <div className="star_continer">
-          <div>
+          <div className='revie_topic_con'>
             <p className="client_name">Client reviews</p>
             <p className="sub_review">
               We pride ourselves in Resume Writing Services as we know we’re very good at it. Still, there’s nothing more

@@ -14,7 +14,7 @@
 }
 .mision_vision_card_topic {
   font-size: 48px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   font-weight: 600;
 }
 .mision_vision_card_section {
@@ -38,6 +38,7 @@
 .mision_vision_card_section_pera {
   font-size: 16px;
   font-weight: 400;
+  line-height: 24px;
 }
 .mision_vision_card_one {
   background-color: #ffeb69;

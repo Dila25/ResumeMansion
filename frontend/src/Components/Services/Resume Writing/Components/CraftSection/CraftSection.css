@@ -6,9 +6,11 @@
   font-size: 48px;
   margin: 0 auto;
   text-align: center;
-  width: 80%;
+  width: 750px;
   font-weight: 600;
   margin-bottom: 45px;
+  line-height: 60px; /* 125% */
+letter-spacing: -0.96px;
   color: #051d14;
 }
 .Craft_Section_main_card_set {
@@ -49,7 +51,8 @@
 }
 .Craft_Section_main_card_colum_pera {
   color: #4b5852;
-
+  line-height: 30px;
+  font-size: 20px;
   font-weight: 400;
 }
 .Craft_Section_main_card_colum {

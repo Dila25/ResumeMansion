@@ -17,7 +17,7 @@ function ContactUsFrom() {
                                 </div>
                             </div>
                             <div className='lft_colum'>
-                                <div>
+                                <div className='topic_lft_contat_continer'>
                                     <p className='fomr_topic_con'>Contact Us</p>
                                     <p className='fome_pera'>Don’t hesitate to reach out! We're here to help you navigate your job search. Check out our <span className='faqs'>FAQs</span> page for answers to your common questions.</p>
                                 </div>

@@ -6,7 +6,7 @@
   gap: 24px;
 }
 .card_data_card_set_services {
-  width: 550px;
+  width: 608px;
   padding: 32px;
   border-radius: 24px;
   cursor: pointer;
@@ -35,10 +35,13 @@
   font-weight: 600;
   margin-bottom: 20px;
   font-size: 36px;
+  line-height: 44px; /* 122.222% */
+letter-spacing: -0.72px;
 }
 .card_data_card_set_services_pera {
   font-weight: 400;
   font-size: 16px;
+  line-height: 24px; 
 }
 @media (max-width: 708px) {
   .main_container_data_card_set_services {
